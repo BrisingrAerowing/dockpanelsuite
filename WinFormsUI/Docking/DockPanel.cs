@@ -687,6 +687,16 @@ namespace WeifenLuo.WinFormsUI.Docking
 
         protected override void OnLayout(LayoutEventArgs levent)
         {
+
+            if (Theme == null)
+            {
+                return;
+            }
+            if (DockWindows == null)
+            {
+                return;
+            }
+
             SuspendLayout(true);
 
             AutoHideStripControl.Bounds = ClientRectangle;
