@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-
   <PropertyGroup>
     <PackageId>DockPanelSuite</PackageId>
     <PackageVersion>3.1.0-beta6</PackageVersion>
@@ -7,7 +6,6 @@
     <Authors>Weifen Luo and other contributors</Authors>
     <Description>The docking library for .Net Windows Forms development which mimics Visual Studio .Net.</Description>
     <Copyright>(C) 2007-2020 Weifen Luo and other contributors</Copyright>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>http://dockpanelsuite.com</PackageProjectUrl>
     <PackageReleaseNotes>
@@ -30,7 +28,6 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="Docking\Configuration\PatchSection.cs" />
     <Compile Include="Docking\DefaultTheme.cs" />
@@ -55,8 +52,7 @@
     <Compile Include="Docking\InertButtonBase.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Docking\DockPanelSkin.cs">
-    </Compile>
+    <Compile Include="Docking\DockPanelSkin.cs" />
     <Compile Include="Docking\IPaintingService.cs" />
     <Compile Include="Docking\LayoutUtils.cs" />
     <Compile Include="Docking\PatchController.cs" />
@@ -162,5 +158,4 @@
   <ItemGroup Condition="'$(TargetFramework)' == 'net40' OR '$(TargetFramework)' == 'net35'">
     <Reference Include="System.Configuration" />
   </ItemGroup>
-
 </Project>

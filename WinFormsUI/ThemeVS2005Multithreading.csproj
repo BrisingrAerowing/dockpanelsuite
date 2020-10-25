@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-
   <PropertyGroup>
     <PackageId>DockPanelSuite.ThemeVS2005Multithreading</PackageId>
     <PackageVersion>3.1.0-beta6</PackageVersion>
@@ -7,7 +6,6 @@
     <Authors>Weifen Luo and other contributors</Authors>
     <Description>Visual Studio 2005 theme for DockPanel Suite with multiple UI thread support. (Not recommended)</Description>
     <Copyright>(C) 2007-2020 Weifen Luo and other contributors</Copyright>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>http://dockpanelsuite.com</PackageProjectUrl>
     <PackageReleaseNotes>
@@ -24,7 +22,6 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="ThemeVS2005Multithreading\VS2005MultithreadingAutoHideStrip.cs">
       <SubType>Component</SubType>
@@ -68,7 +65,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
   <ItemGroup>
     <Content Include="ThemeVS2005\Resources\DockIndicator_PaneDiamond.png" />
     <Content Include="ThemeVS2005\Resources\DockIndicator_PaneDiamond_Bottom.png" />
@@ -108,5 +104,4 @@
   <ItemGroup>
     <ProjectReference Include="WinFormsUI.csproj" />
   </ItemGroup>
-
 </Project>

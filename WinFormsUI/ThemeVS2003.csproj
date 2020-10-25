@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-
   <PropertyGroup>
     <PackageId>DockPanelSuite.ThemeVS2003</PackageId>
     <PackageVersion>3.1.0-beta6</PackageVersion>
@@ -7,7 +6,6 @@
     <Authors>Weifen Luo and other contributors</Authors>
     <Description>Visual Studio 2003 theme for DockPanel Suite.</Description>
     <Copyright>(C) 2007-2020 Weifen Luo and other contributors</Copyright>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>http://dockpanelsuite.com</PackageProjectUrl>
     <PackageReleaseNotes>
@@ -24,7 +22,6 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="ThemeVS2003\InertButton.cs">
       <SubType>Component</SubType>
@@ -128,5 +125,4 @@
   <ItemGroup>
     <ProjectReference Include="WinFormsUI.csproj" />
   </ItemGroup>
-
 </Project>
